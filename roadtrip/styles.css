@@ -6,3 +6,28 @@
     bottom: 0;
     right:0;
 }
+
+.rttext {
+    text-align: center;
+    position: relative;
+}
+
+h2 {
+    margin-left: 100px;
+    padding: 5px;
+}
+
+li {
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+
+.li1 {
+    position: sticky;
+    top: 100px;
+}
+
+.li2 {
+    position: sticky;
+    top: 200px;
+}
