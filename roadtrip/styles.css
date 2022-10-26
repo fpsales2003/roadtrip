@@ -1,10 +1,19 @@
 #wurlivid {
     position: sticky;
-    min-width: 100%;
-    min-height: 100%;
+    width: 100%;
     object-fit: cover;
     bottom: 0;
     right:0;
+    margin-bottom: 100px;
+}
+
+.toptext {
+    opacity: 0;
+    transition: 0.8s;
+}
+
+.toptext.visible {
+    opacity: 1;
 }
 
 .rttext {
@@ -12,22 +21,17 @@
     position: relative;
 }
 
-h2 {
+h2. {
     margin-left: 100px;
     padding: 5px;
 }
 
 li {
-    margin-left: 90px;
     margin-bottom: 50px;
 }
 
-.li1 {
-    position: sticky;
-    top: 100px;
-}
-
-.li2 {
-    position: sticky;
-    top: 200px;
+.listmapcontainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
 }
